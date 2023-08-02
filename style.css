@@ -1,0 +1,168 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial',sans-serif;
+}
+body{
+    background: black;
+    color: white;
+}
+#header{
+    width:100%;
+    height:100vh;
+    background-image:url("istockphoto-881269690-640x640 copy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right ;
+    
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    text-align: right;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    color:#fff;
+     text-decoration: none;
+     font-size: 18px;
+     position:relative;
+}
+nav ul li a::after{
+    content:'';
+    width:0;
+    height:3px;
+    background: #ff004f;
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width:100%;
+}
+.header-text{
+    margin-top:20%;
+    font-size: 30px;
+}
+.Header-text h1{
+    font-size:60px;
+    margin-top:20px;
+}
+.header-text h1 span{
+    color: #ff004f;
+}
+#about{
+    padding: 80px 0;
+    color: white
+}
+    .row{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+
+    }
+    .about-col-1 img{
+        width:10;
+        border-radius:15px;
+    }
+    .about-col-2 img{
+        flex-basis:60%;
+    }
+    .sub title{
+        font-size: 60 px;
+        font-weight: 600;
+        color:#fff;
+    }
+
+        contact-left{
+            flex-basis: 35%;
+        }
+        contact-right{
+            flex-basis: 60%;
+        }
+        .contact-left p{
+            margin-top:30px;
+        }
+        contact-left p i{
+            color: blueviolet;
+            margin-right:15px;
+            font-size:25px;
+        }
+        .social-icons {
+            margin-top: 30px;
+        }
+        .social-icons a{
+            text-decoration:none;
+            font-size:50px;
+            margin-right:15px;
+            color: #ababab;
+            display: inline-block;
+            transition:0.5s;
+        }
+        .social-icons a:hover{
+            color:blueviolet;
+            transform:  translateY(-5px);
+        }
+footer{
+    background-color: rgb(54, 48, 48);
+    text-align: center;
+}
+
+
+
+    .education-grid,
+    .job-experience-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .grid-item {
+      background-color: white;
+      padding: 1rem;
+    }
+
+    .skills-list {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+
+    .skills-list li {
+      display: inline-block;
+      margin-right: 1rem;
+    }
+    .About{
+        width: 100%;
+        padding: 20px;
+        background-color: #191919;
+    }
+    .contact-container {
+        background-color: black;
+        color: white;
+        padding: 2rem;
+      }
+
+      body{
+        background-image: url(./pexels-junior-teixeira-2047905.jpg);
+        background-size: cover;
+    
+        
+      }
+footer ol{
+    font-size: 2.5em;
+    list-style-type: none;
+}
